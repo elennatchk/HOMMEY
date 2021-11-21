@@ -10,7 +10,9 @@
     height: 100vh;
     flex-wrap: wrap;
 }
-
+.left-side{
+    background: rgb(241, 240, 240);
+}
 .left-side, .right-side{
     flex-basis: 50%;
     height: 100vh;
@@ -46,12 +48,12 @@
     width: 200px;
     border: none;
     box-shadow: 0px 5px 5px 1px rgba(219, 219, 219, 0.5);
-    padding: 20px 0;
+    padding: 15px 0;
     background: plum;
     color: rgb(255, 255, 255);
     outline: none;
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .image-cont{
@@ -112,4 +114,30 @@ hr{
     width: 2px;
     height: 30px;
     background: rgba(10, 20, 4, 0.596);
+}
+
+@media only screen and (max-width:800px){
+    .logo{
+        margin:30px auto;
+
+    }
+    .left-side,.right-side{
+        flex-basis: 100%;
+    }
+    .con{
+        left:0;
+        padding:20px;
+        text-align: center;
+    }
+    .con h1{
+        font-size: 34px;
+        line-height: 38px;
+
+    }
+    .image-cont{
+        height: auto;
+    }
+    .image-content{
+        height: auto;
+    }
 }
