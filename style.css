@@ -1,0 +1,115 @@
+*{
+    paddding:0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapp{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.left-side, .right-side{
+    flex-basis: 50%;
+    height: 100vh;
+    position: relative;
+}
+.logo{
+    display: block;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.con{
+    max-width: 500px;
+    position:absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+
+.con h1{
+    color: plum;
+    font-size: 60px;
+    line-height: 70px;
+    margin:25px 0;
+}
+.con p{
+    color: rgb(11, 29, 16);
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.con button{
+    width: 200px;
+    border: none;
+    box-shadow: 0px 5px 5px 1px rgba(219, 219, 219, 0.5);
+    padding: 20px 0;
+    background: plum;
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.image-cont{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.image-cont img{
+    width: 100%;
+
+}
+.image-content{
+    width: 100%;
+    height: 40%;
+    background: rgb(160, 112, 160);
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.image-content h2{
+    font-size: 26px;
+    font-weight: 100;
+    color: mintcream;
+}
+hr{
+    border: none;
+    width: 310px;
+    margin: 20px 0 30px;
+    height: 1px;
+    background: wheat;
+
+}
+
+.image-content p{
+    color: lavender;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 25px;
+
+}
+.controller{
+    width: 120px;
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controller img{
+    width: 25px;
+    cursor: pointer
+    ;
+}
+
+.line{
+    width: 2px;
+    height: 30px;
+    background: rgba(10, 20, 4, 0.596);
+}
